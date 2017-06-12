@@ -1,7 +1,7 @@
 # OpenImageIO Image Reader for Maya
 Image Reader using OpenImageIO (OIIO) library plug-in for Autodesk Maya.
 
-Only supports OpenEXR image format currently.
+Only supports OpenEXR image format currently. This plug-in does not support image format writing.
 
 This plug-in was written with the aim to speed up EXR file loading inside Maya, especially for image sequences on the Maya Image Plane. 
 

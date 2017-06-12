@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
-project(mayaEXROIIOReader)
+project(mayaOpenImageIOReader)
 set(PLUGIN_NAME exrOIIOReader)
 set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_BUILD_TYPE DEBUG)
@@ -11,10 +11,8 @@ set(MAYA_INCLUDE ${MAYA_ROOT}/include)
 set(MAYA_LIB ${MAYA_ROOT}/lib)
 
 # OpenImageIO
-#set(OIIO_INCLUDE "/usr/local/include")
-#set(OIIO_LIB "/usr/local/lib64")
-set(OIIO_INCLUDE "/home/davidc/bin/oiio/oiio-Release-1.2.2/dist/linux64/include")
-set(OIIO_LIB "/home/davidc/bin/oiio/oiio-Release-1.2.2/build/linux64/libOpenImageIO")
+set(OIIO_INCLUDE "/usr/local/include")
+set(OIIO_LIB "/usr/local/lib64")
 
 # Utilities
 set(UTILS_INCLUDE "/home/davidc/dev/cppTests/utilities")
